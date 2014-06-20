@@ -10,5 +10,5 @@
 		mysqli_query($con,"DELETE FROM todo_t WHERE ID='".$idd."'");
 	}
 	mysqli_close($con);
-	header("Location: http://localhost/raw4/project2_octagon.php");
+	header("Location: project2_octagon.php");
 	?>
