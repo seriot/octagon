@@ -1,5 +1,5 @@
 <?php
-	$con=mysqli_connect('localhost','seriot','loop900','octagon');
+	$con=mysqli_connect('localhost','username','password','octagon');
 	// Check connection
 	if (mysqli_connect_errno()) {
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
